@@ -23,11 +23,13 @@ BasketballScoreboardApp — это приложение на Python, котор�
 ## Установка
 
 0. **Установите необходимые зависимости:**
-    ```bash
+
+   ```bash
     cd packages
     pip install *.whl
     ```
    И
+   
    ```bash
    pip install -r requirements.txt
    ```
