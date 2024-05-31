@@ -35,7 +35,7 @@ class CustomTimeEditDialog(ctk.CTkToplevel):
                 self.destroy()
             except ValueError:
                 self.label.configure(text="Пожалуйста, введите корректное время в формате мм:сс")
-        else:  # 'ss' format for shot clock
+        else:  
             try:
                 self.result = int(time_text)
                 self.destroy()
